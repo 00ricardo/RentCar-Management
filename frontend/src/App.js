@@ -1,9 +1,19 @@
-
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
+import Header from './components/Header'
+import Footer from './components/Footer'
 function App() {
   return (
-    <div>
-      Hello
-    </div>
+    <Router>
+      <Header></Header>
+      <main>
+        <Container>
+          Hello
+        </Container>
+      </main>
+      <Footer></Footer>
+    </Router>
   );
 }
 
