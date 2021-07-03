@@ -12,6 +12,13 @@ Controller - The connection between Models and Views, (application logic = visit
     0.4 - in gitignore update node_modules and add node_modules/
     0.5 - in gitignore add .env 
     0.6 - in package.json add the scripts to run server and react (concurrently)
+    0.7 - create DB in Mongo Atlas
+        0.7.1 - create a cluster
+        0.7.2 - create a user in Database Acess
+        0.7.3 - create a new IP Adress in Network Adress with the default one (0.0.0.0/0)
+        0.7.4 - create a new database and a new collection in Clusters (collections)
+        0.7.5 - get the connection URL in Clusters (connect) to connect in Mongo Compass
+        0.7.6 - get the connection URL in Clusters (connect->connect your app) to connect in dev 
 1 - Create Components
     1.1 - folder components (header, footer, products)
     1.2 - folder screens (home screen, product screen)
